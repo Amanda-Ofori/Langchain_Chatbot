@@ -1,0 +1,569 @@
+AN INTRODUCTION TO 
+ARTIFICIAL INTELLIGENCE
+COMPILED BY HOWIE BAUM
+1
+ 2
+•
+Artificial intelligence (AI), sometimes called machine intelligence, 
+is intelligence demonstrated by machines, in contrast to the natural 
+intelligence displayed by humans and other animals, such as "learning" 
+and "problem solving. . 
+In computer science AI research is defined as the study of 
+"intelligent agents": any device that perceives its environment and 
+takes actions that maximize its chance of successfully achieving its 
+goals.
+ HOW ARE HUMANS INTELLIGENT ?
+• Learning
+• Reasoning
+• Problem Solving and Creativity
+• Social Behavior
+• Experiencing our Environment with our senses:
+• Hearing
+• Sight
+• Touch
+• Taste
+• Smelling
+3
+ 4
+ Ways that People Think and Learn 
+About Things 
+• If you have a problem, think of a past situation 
+where you solved a similar problem. 
+• If you take an action, anticipate what might happen 
+next. 
+• If you fail at something, imagine how you might 
+have done things differently. 
+• If you observe an event, try to infer what prior event 
+might have caused it. 
+• If you see an object, wonder if anyone owns it. 
+• If someone does something, ask yourself what the 
+person's purpose was in doing that. 
+5
+ This is what 
+Humans do 
+best
+Can you list 
+the items in 
+this picture ?
+A computer 
+might have 
+trouble 
+identifying the 
+cat there.
+Can you count the 
+distribution of 
+letters in a book?
+Add a thousand  
+4-digit numbers?
+Match finger 
+prints?
+Search a list of a 
+million values
+for duplicates?
+This is what 
+Computers do best
+Artificial intelligence (AI) - The study of computer systems that 
+attempt to model and apply the intelligence of the human mind.
+For example, writing a program to pick out objects in a picture:
+6
+ When we compare Humans to Machines, it is important to note that a 
+Machine can be a car, a Smart Phone, a Digital Television, etc.
+7
+ 8
+ 9
+The illustration below illustrates a typical information flow between the 
+"human" and "machine" components of a system.   For a properly designed 
+system, its important to know the capabilities and flexibilities of both.
+https://www.hf.faa.gov/webtraining/HFModel/HFInterModel/overview.htm
+ 10
+ KEY RESEARCH AREAS IN AI
+• Problem solving, planning, and search --- generic problem solving 
+architecture based on ideas from cognitive science (game playing, 
+robotics).
+• Knowledge Representation – to store and manipulate information 
+(logical and probabilistic representations)
+• Automated reasoning / Inference – to use the stored information to 
+answer questions and draw new conclusions
+• Machine  Learning – intelligence from data; to adapt to new 
+circumstances and to detect and extrapolate patterns
+• Natural Language Processing – to communicate with the machine
+• Computer Vision --- processing visual information
+• Robotics --- Autonomy, manipulation, full integration of AI 
+capabilities
+11
+ From SIRI and Alexa, to self-driving cars, artificial 
+intelligence (AI) is progressing rapidly. 
+While science fiction often portrays AI as robots with human-like 
+characteristics, AI can encompass anything from Google’s search 
+algorithms, to IBM’s Watson, to autonomous weapons.
+Artificial intelligence today is properly known as narrow AI 
+(or weak AI), in that it is designed to perform a narrow 
+task such as only facial recognition, or only internet 
+searches, or only driving a car). 
+However, the long-term goal of many researchers is to 
+create general AI (AGI or strong AI). 
+While narrow AI may outperform humans at whatever its 
+specific task is, like playing chess or solving equations, AGI 
+would outperform humans at nearly every thinking task.
+12
+ 13
+ 14
+The potential benefits from self-learning computer chips are 
+limitless as these types of devices can learn to perform the most 
+complex thinking tasks, such as interpreting critical cardiac 
+rhythms, detecting anomalies to prevent cyber-hacking and 
+composing music.
+This is a new one made by the Intel company and many other
+complex thinking tasks, such as interpreting critical cardiac 
+rhythms, detecting anomalies to prevent cyber-hacking and 
+composing music.
+This is a new one made by the Intel company and many other 
+companies are making special AI chips too.
+ AUTOMATONS – ARE THESE DEVICES 
+INTELLIGENT ?
+https://www.youtube.com/watch?v=C7oSFNKIlaM (2.22 min)
+15
+ 16
+Artificial Intelligence (AI) has entered our daily lives like never before 
+and we are yet to unravel the many other ways in which it could flourish. 
+All of the tech giants such as Microsoft, Uber, Google, Facebook, Apple, 
+Amazon, Oracle, Intel, IBM or Twitter are competing in the race to lead 
+the market and acquire the most innovative and promising AI 
+businesses.
+ 17
+ 18
+ 19
+ 20
+https://www.youtube.com/watch?v=GoXp1leA5Qc
+Google announced their Duplex system, a new technology for 
+conducting natural conversations to carry out “real world” tasks over 
+the phone. 
+The technology is directed towards completing specific tasks, such 
+as scheduling certain types of appointments. 
+For such tasks, the system makes the conversational experience as 
+natural as possible, allowing people to speak normally, like they 
+would to another person, without having to adapt to a machine.
+ 21
+ 22
+https://www.youtube.com/watch?v=gsUV0mGEGaY
+ 23
+ 24
+ 25
+The answer is all of the above. 
+Each of these highly realistic images were created by generative 
+adversarial networks, or GANs.
+GAN, a concept introduced by Google researcher Ian Goodfellow in 
+2014, taps into the idea of “AI versus AI.” 
+There are two neural networks: the generator, which comes up 
+with a fake image (say a dog for instance), and a discriminator, 
+which compares the result to real-world images and gives feedback 
+to the generator on how close it is to replicating a realistic image.
+ 26
+ 27
+ 28
+ 29
+The Turing Test
+Turing test
+A test to determine whether a computer has achieved intelligence
+Alan Turing
+An English mathematician who wrote a landmark paper in 1950 that 
+asked the question: Can machines think?
+He proposed a test to answer the question "How will we know when 
+we have succeeded?“
+He said that a machine passes the test when it successfully generates 
+responses appropriate enough to convince the evaluator that it is 
+human.
+ 30
+In the Turing test, the interrogator must determine which 
+respondent is the computer and which is the human.
+ 31
+THE LOEBNER PRIZE FOR COMPLETING THE TURING TEST
+The Loebner Prize is an annual competition in artificial 
+intelligence that awards prizes to the computer 
+programs considered by the judges to be the most human-
+like, using the Turing Test computer and person arrangement.
+The contest was launched in 1990 by Hugh Loebner and there 
+are bronze, silver, and gold coin prizes, plus money.
+•So far, there have only been winners of the bronze medal and a 
+$4,000 award. 
+ 32
+Silver – a one-time-only prize plus $25,000 offered for the first program 
+that judges cannot distinguish from a real human.
+Gold plus $100,000 for the first program that judges cannot distinguish from 
+a real human in a Turing test that includes deciphering and understanding 
+text, visual, and auditory input. 
+Once this is achieved, the annual competition will end. 
+.
+ 33
+KNOWLEDGE REPRESENTATION
+• We need to create a logical view of the data, based on how we want 
+to process it
+• Natural language is very descriptive, but does not lend itself to 
+efficient processing.
+____________________________________________________
+What are the different ways that we can represent knowledge so it 
+can be reviewed by an Artificial Intelligence computer program ?
+1) Expert Learning Systems
+2) Semantic Networks - A knowledge representation technique that 
+focuses on the relationships and word descriptions of objects.   A graph 
+is used to represent a semantic network or net
+3) Decision or Search tree
+4) Neural networks – creating a computer version of the neurons of the 
+brain and how they work
+ 12-34
+1)  Expert Learning Systems
+3) Decision or Search tree
+4) Neural networks – creating a computer version of the neurons of the 
+brain and how they work
+ 12-34
+1)  Expert Learning Systems
+• Expert Learning Systems were commercially the first and most 
+successful domain in Artificial Intelligence.
+• Somewhat out of favor today
+• These programs mimic the experts in whatever field is being 
+studied.
+Auto mechanic
+Telephone networking
+Cardiologist
+Delivery routing
+Organic compounds
+Professional auditor
+Mineral prospecting
+Manufacturing
+Infectious diseases
+Pulmonary function
+Diagnostic internal medicine
+Weather forecasting
+computer configuration
+Battlefield tactician
+Engineering structural analysis
+Space-station life support  
+Audiologist
+Civil law
+ • Rule-based or Expert systems - Knowledge bases 
+consisting of hundreds or thousands of rules of the 
+form:    
+•
+IF (condition) THEN (action).
+•
+Use rules to store knowledge (“rule-based”).
+•
+The rules are usually gathered from experts in the field being 
+represented (“expert system”).
+•
+Most widely used knowledge model in the commercial world.
+IF (it is raining AND you must go outside)
+THEN (put on your raincoat)
+• Rules can fire off a chain of other rules
+IF (raincoat is on)
+THEN (you will not get wet)
+ Expert Systems
+36
+Gardener Expert System Example
+ Expert Systems
+Named abbreviations that represent conclusions:
+• NONE—apply no treatment at this time
+• TURF—apply a turf-building treatment
+• WEED—apply a weed-killing treatment
+• BUG—apply a bug-killing treatment
+• FEED—apply a basic fertilizer treatment
+• WEED & FEED—apply a weed-killing and fertilizer combination 
+treatment
+37
+ Expert Systems
+Variables that are needed to represent the 
+state of the lawn
+• BARE—the lawn has large, bare areas
+• SPARSE—the lawn is generally thin
+• WEEDS—the lawn contains many weeds
+• BUGS—the lawn shows evidence of bugs
+38
+ Expert Systems
+Data that is available:
+• LAST—the date of the last lawn treatment
+• CURRENT—current date
+• SEASON—the current season
+Now we can formulate some rules for our
+gardening expert system 
+Rules take the form of if-then statements
+39
+ Expert Systems
+Some rules
+• if (THE CURRENT DAY – LAST DAY IS LESS THAN 30) then 
+NONE
+• if (SEASON = winter) then not BUGS
+• if (BARE) then TURF
+• if (SPARSE and not WEEDS) then FEED
+• if (BUGS and not SPARSE) then BUG
+• if (WEEDS and not SPARSE) then WEED
+• if (WEEDS and SPARSE) then WEED & FEED
+40
+ Expert Systems
+An execution of our inference engine
+• System: 
+Does the lawn have large, bare areas?
+• User: 
+No
+• System: 
+Does the lawn show evidence of bugs?
+• User: 
+No
+• System: 
+Is the lawn generally thin?
+• User: 
+Yes
+• System: 
+Does the lawn contain significant weeds?
+• User: 
+Yes
+• System: 
+You should apply a weed-killing and fertilizer  
+combination treatment.
+41
+ 42
+2) Semantic (word description) Networks
+Semantic network
+A knowledge representation technique that focuses on the 
+relationships between objects
+A directed graph or word chart is used to represent a semantic 
+network or net
+ 3) Search Trees
+AI often revolves around the use of algorithms. 
+An algorithm is a set of instructions that a mechanical computer can 
+execute.
+A complex algorithm is often built on top of another, simpler, one 
+and a common way to visualize it is with a tree design. 
+43
+ A simple example of an algorithm is 
+the following recommendations for 
+optimal play at tic-tac-toe:
+If someone has a "threat" (that is, 
+two in a row), take the remaining 
+square. Otherwise,
+If a move "forks" to create two 
+threats at once, play that move. 
+Otherwise,
+Take the center square if it is free. 
+Otherwise,
+If your opponent has played in a 
+corner, take the opposite corner. 
+Otherwise,
+Take an empty corner if one exists. 
+Otherwise, 
+Take any empty square.
+44
+ 45
+An example is a Search tree for playing the game Tic-Tac-Toe, as shown 
+below. 
+This image depicts many of the possible paths that the game can take from 
+the having the first 2 rows filled,
+as shown:
+ THE HUMAN BRAIN AND NEURONS IN IT
+below. 
+This image depicts many of the possible paths that the game can take from 
+the having the first 2 rows filled,
+as shown:
+ THE HUMAN BRAIN AND NEURONS IN IT
+A REVIEW BEFORE THE DISCUSSION ABOUT  
+4) NEURAL NETS
+46
+ THE BRAIN IS DIVIDED INTO 4 
+LOBES AND THE CEREBELLUM 
+WHICH IS LOCATED AT THE 
+BOTTOM, BACK AREA
+47
+ 48
+AI technology called machine learning today, is great at helping for 
+taking good photos, translating languages, recognizing your friends 
+on Facebook, delivering search results, screening out spam and many 
+other chores. 
+It usually uses an approach called neural networks that works 
+something like a human brain, not a sequence of IF THIS, THEN steps 
+as in traditional computing.
+ 49
+TYPES AND FUNCTION OF NEURONS
+Neurons are essential for every action that our body and brain carry out. 
+It is the complexity of neuronal networks that gives us our personalities and 
+our consciousness. 
+They make up around 10 percent of the brain; the rest consists of glial cells 
+and other cells that support and nourish the neurons.
+ 50
+There are around 86 billion neurons in the brain.  To reach this huge 
+target, a developing fetus must create around 250,000 neurons per 
+minute !
+Each neuron is connected to at least 10,000 others – giving well over 
+1,000 trillion connections (1 quadrillion connections).
+They all connect at a junction called a synapse, which can be electrical or a 
+higher percentage of them are chemical. 
+ 51
+Incoming signals to the neuron can be either excitatory – which means they 
+tend to make the neuron fire (generate an electrical impulse) – or inhibitory –
+which means that they tend to keep the neuron from firing.
+A single neuron may have more than one set of dendrites, and may receive many 
+thousands of input signals. 
+Whether or not a neuron is excited into firing an impulse depends on the sum of 
+all of the excitatory and inhibitory signals it receives.
+If the neuron does end up firing, the nerve impulse is conducted down the axon.
+ 52
+How synapses work - Neurons are connected to each other at a location 
+called a Synapse, so that they can communicate messages
+Amazingly, where each cell connects with the other one, NONE of 
+these cells ever touch each other !!
+The signal that is carried from the first nerve fiber to the next one is 
+transmitted by an electrical signal or a chemical one, up to a speed 
+of 268 miles per hour !
+There is new evidence that both types closely interact with each other and 
+that the transmission of a nerve signal is both chemical and electrical, 
+which is actually required for normal brain development and function.
+https://www.youtu
+be.com/watch?v=m
+ItV4rC57kM&t=10s
+ 53
+If you don’t use a foreign language you learned years ago or 
+mathematics, the neurons used for those things will move the 
+synapses away from each other so they can do other things that 
+you are learning to do.   This is called Synaptic Pruning.
+ 54
+4) Artificial Neural Network (ANN)
+A computer representation of knowledge that attempts to 
+mimic the neural networks of the human brain
+Yes, but what is a human neural network?
+Neural networks, or neural nets, were inspired by the 
+architecture of neurons in the human brain. 
+A simple "neuron" N accepts input from multiple other 
+neurons, each of which, when activated (or "fired"), cast a 
+weighted "vote" for or against whether neuron N should itself 
+activate.
+ 55
+An ANN is based on a collection of connected units or nodes called artificial 
+neurons, which loosely model the neurons in a biological brain. 
+Each connection, like the synapses in a biological brain, can transmit a 
+signal from one artificial neuron to another. An artificial neuron that receives 
+a signal can process it and then signal additional artificial neurons 
+connected to it.
+ 12-56
+ARTIFICIAL NEURAL NETWORK
+• Artificial neurons: Commonly called processing elements, 
+are modeled after real neurons of humans and other animals.
+• Has many inputs and one output.
+12-56
+ARTIFICIAL NEURAL NETWORK
+• Artificial neurons: Commonly called processing elements, 
+are modeled after real neurons of humans and other animals.
+• Has many inputs and one output.
+• The inputs are signals that are strengthened or weakened 
+(weighted).
+• If the sum of all the signals is strong enough, the neuron 
+will put out a signal to the next neuron output of a 1.
+Output
+Artificial 
+Neuron
+Inputs
+ 57
+Artificial Neural Networks
+Training
+The process of adjusting the weights and threshold values in a 
+neural net 
+How does this all work?
+Train a neural net to recognize An eagle in a picture.
+Given one output value per pixel, train network to produce an 
+output value of 1 for every pixel that contributes to the eagle and 0 
+for every one that doesn’t.
+ 58
+DeepMind is a subsidiary of Google that focuses on the 
+development of artificial intelligence and deep reinforcement 
+machine learning.  
+The deep reinforcement learning of its AI algorithms has been 
+used in both research and applied contexts
+DeepMind is built around the framework of neural networks and 
+uses a method called deep-reinforced-learning. 
+This means that the A.I can learn from it's experiences and 
+become more efficient at whatever it does. 
+The A.I is general-purpose meaning that it's NOT pre-programmed 
+for a specific task from the go.
+https://www.youtube.com/watch?v=gn4nRCC9TwQ
+ Agents
+• An agent is anything that can be viewed as a device that 
+can perceive its environment through sensors and act upon 
+that environment through actuators.
+• Human agent: eyes, ears, and other organs for sensors; hands, 
+legs, mouth, and other body parts for actuators
+• Robotic agent: cameras and infrared range finders for sensors
+• Various motors for actuators
+• Rational Agent: 
+• For each possible sequence, a rational agent should select an 
+action that is expected to maximize its performance measure, 
+given the evidence provided by the perception sequence and 
+whatever built-in knowledge the agent has.
+59
+ Why “meaning” is the central concept of AI
+• For an agent to be “intelligent”, it must be able to understand the 
+meaning of information.
+• Information is acquired / delivered / conveyed in messages which 
+are phrased  in a selected representation language.
+• There are two sides in information exchange: the source (text, 
+image, person, program, etc.) and the receiver (person or an AI 
+agent). They must speak the same “language” for the information 
+to be exchanged in a meaningful way.
+• The receiver must have the ability to interpret the information 
+correctly according to the intended by the source meaning or semantics of 
+it. 
+MEANING = SEMANTICS
+60
+ 61
+ 62
+Machine Learning
+The phrase ‘machine learning’ dates back to the middle of the last 
+century where Arthur Samuel in 1959 defined machine learning as 
+“the ability to learn without being explicitly programmed.”
+Machine learning is a type of AI that helps a computer’s ability to 
+learn and essentially teach itself to evolve as it becomes exposed 
+to new and ever-changing data. 
+For example, Facebook’s news feed uses machine learning in an 
+effort to personalize each individual’s feed based on what they like.
+ 63
+https://www.youtube.com/watch?v=odHC-gxJhG4
+DRONE CHASSIS DESIGN USING 
+MACHINE LEARNING
+ 64
+Deep Learning
+Deep Learning is a new area of machine learning research, which 
+has been introduced with the objective of moving machine 
+learning closer to artificial intelligence.
+It relates to study of ‘deep neural networks’ in the human brain 
+and, under this perspective, the deep learning tries to emulate 
+the functions of inner layers of the human brain, creating 
+knowledge from multiple layers of information processing. 
+Since the deep learning technology is modelled after the human 
+brain, each time new data is poured in, its capabilities get better.
+Deep artificial neural networks are a set of algorithms 
+reaching new levels of accuracy for many important
+brain, each time new data is poured in, its capabilities get better.
+Deep artificial neural networks are a set of algorithms 
+reaching new levels of accuracy for many important 
+problems, such as image recognition, sound recognition, 
+recommender systems, etc.
+ 65
+For example, a deep learning algorithm could be trained to ‘learn’ 
+how a dog looks like. It would take an enormous dataset of images 
+for it to understand the minor details that distinguish a dog from a 
+wolf or a fox.
+ 66
+ 67
+CONCERNS ABOUT AI TAKING OVER THE WORLD
+The computer that wins at games of Chess or Go, is analyzing 
+data for patterns. It has no idea it’s playing Go as opposed to 
+golf, or what would happen if more than half of a Go board was 
+pushed beyond the edge of a table. 
+When you ask Amazon’s Alexa to reserve you a table at a 
+restaurant you name, its voice recognition system, made very 
+accurate by machine learning, saves you the time of entering a 
+request in Open Table’s reservation system. 
+But Alexa doesn’t know what a restaurant is or what eating is. 
+If you asked it to book you a table for two at 6 p.m. at the Mayo 
+Clinic, it would try.
+ 68
+ 69
+ 70
+ 71
+THE END

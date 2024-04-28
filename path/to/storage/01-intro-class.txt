@@ -1,0 +1,621 @@
+Introduction to Artificial 
+Intelligence
+Kalev Kask
+ICS 271
+Fall 2017
+271-fall 2017
+http://www.ics.uci.edu/~kkask/Fall-2017 CS271/
+ Course requirements
+Assignments:
+•
+There will be weekly homework assignments, a project, a final.
+Course-Grade:
+•
+Homework will account for 20% of the grade, project 30%, final 50% of the 
+grade.
+. Discussion:
+•
+Optional. Mon. 12-1:50 DBH 1300.
+271-fall 2017
+ Course overview
+• Introduction and Agents (chapters 1,2)
+• Search (chapters 3,4,5,6)
+• Logic (chapters 7,8,9)
+• Planning (chapters 10,11)
+271-fall 2017
+ Plan of the course
+Part I Artificial Intelligence
+1 Introduction 
+2 Intelligent Agents 
+Part II Problem Solving
+3 Solving Problems by Searching 
+4 Beyond Classical Search 
+5 Adversarial Search 
+6 Constraint Satisfaction Problems 
+Part III Knowledge and Reasoning
+7 Logical Agents 
+8 First-Order Logic 
+9 Inference in First-Order Logic 
+10 Classical Planning 
+11 Planning and Acting in the Real World 
+271-fall 2017
+ Resources on the internet
+Resources on the Internet
+• AI on the Web: A very comprehensive list of Web resources 
+about AI from the Russell and Norvig textbook. 
+Essays and Papers
+• What is AI, John McCarthy
+• Computing Machinery and Intelligence, A.M. Turing
+• Rethinking Artificial Intelligence, Patrick H.Winston 
+• AI Topics: http://aitopics.net/index.php
+271-fall 2017
+ Today’s class
+• What is Artificial Intelligence? 
+• A brief History  
+• State of the art 
+• Intelligent agents
+271-fall 2017
+ Today’s class
+• What is Artificial Intelligence? 
+• A brief History 
+• Intelligent agents
+• State of the art
+271-fall 2017
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ What is Artificial Intelligence
+(John McCarthy , Basic Questions)
+•
+What is artificial intelligence? 
+•
+It is the science and engineering of making intelligent machines, especially intelligent 
+computer programs. It is related to the similar task of using computers to 
+understand human intelligence, but AI does not have to confine itself to methods 
+that are biologically observable.
+•
+Yes, but what is intelligence?
+•
+Intelligence is the computational part of the ability to achieve goals in the world. 
+Varying kinds and degrees of intelligence occur in people, many animals and some 
+machines. 
+•
+Isn't there a solid definition of intelligence that doesn't depend on relating it to 
+human intelligence? 
+•
+Not yet. The problem is that we cannot yet characterize in general what kinds of 
+computational procedures we want to call intelligent. We understand some of the 
+mechanisms of intelligence and not others. 
+•
+More in: http://www-formal.stanford.edu/jmc/whatisai/node1.html
+271-fall 2017
+ What  is Artificial Intelligence?
+• Nils J. Nilsson :
+– “Artificial intelligence is that activity devoted to 
+making machines intelligent, and intelligence is 
+that quality that enables an entity to function 
+appropriately and with foresight in its 
+environment.”
+271-fall 2017
+ What  is Artificial Intelligence?
+• Human-like vs rational-like
+• Thought processes vs behavior
+• How to simulate human intellect and behavior by a 
+machine.
+– Mathematical problems (puzzles, games, theorems)
+– Common-sense reasoning
+– Expert knowledge: lawyers, medicine, diagnosis
+– Social behavior
+• Things we would call “intelligent” if done by a 
+human.
+271-fall 2017
+ What  is Artificial Intelligence?
+Views of AI fall into four categories:
+Thinking humanly
+Thinking rationally 
+Acting humanly
+Acting rationally 
+The textbook advocates "acting rationally“
+271-fall 2017
+How to simulate humans intellect and behavior by a machine.
+Mathematical problems (puzzles, games, theorems)
+Common-sense reasoning
+Expert knowledge: lawyers, medicine, diagnosis
+Social behavior
+ The Turing Test
+(Can Machine think? A. M. Turing, 1950)
+• Requires:
+– Natural language
+– Knowledge representation
+– Automated reasoning
+– Machine learning 
+– (vision, robotics) for full test
+271-fall 2017
+http://aitopics.net/index.php
+http://amturing.acm.org/acm_tcc_webcasts.cfm
+ Acting/Thinking Humanly/Rationally
+•
+– Machine learning 
+– (vision, robotics) for full test
+271-fall 2017
+http://aitopics.net/index.php
+http://amturing.acm.org/acm_tcc_webcasts.cfm
+ Acting/Thinking Humanly/Rationally
+•
+Turing test (1950)
+•
+Requires:
+– Natural language
+– Knowledge representation
+– automated reasoning
+– machine learning
+– (vision, robotics.) for full test
+•
+Methods for Thinking Humanly:
+– Introspection, the general problem solver (Newell and 
+Simon 1961)
+– Cognitive sciences
+•
+Thinking rationally:
+– Logic
+– Problems: how to represent and reason in a domain
+•
+Acting rationally:
+– Agents: Perceive and act
+271-fall 2017
+ What is Artificial Intelligence
+• Thought processes
+– “The exciting new effort to make computers think .. 
+Machines with minds, in the full and literal sense” 
+(Haugeland, 1985)
+• Behavior
+– “The study of how to make computers do things at which, at 
+the moment, people are better.” (Rich, and Knight, 1991)
+• Activities
+– The automation of activities that we associate with human 
+thinking, activities such as decision-making, problem solving, 
+learning… (Bellman)
+271-fall 2017
+ The foundation of AI
+271-fall 2017
+Philosophy, Mathematics, Economics, Neuroscience, Psychology,
+Computer Engineering, 
+Features of intelligent system
+•
+Deduction, reasoning, problem solving
+•
+Knowledge representation
+•
+Planning
+•
+Learning
+•
+Natural language processing
+•
+Perception
+•
+Motion and manipulation
+Tools
+•
+Search and optimization
+•
+Logic
+•
+Probabilistic reasoning
+•
+Neural networks
+ Today’s class
+• What is Artificial Intelligence? 
+• A brief history 
+• State of the art
+• Intelligent agents
+271-fall 2017
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Histroy of AI
+271-fall 2017
+McCulloch and Pitts (1943)
+Neural networks that learn
+Minsky and Edmonds (1951)
+Built a neural net computer
+Darmouth conference (1956):
+McCarthy, Minsky, Newell, Simon met,
+Logic theorist (LT)- Of Newell and Simon proves a theorem in Principia 
+Mathematica-Russel.
+The name “Artficial Intelligence” was coined.
+1952-1969 (early enthusiasm, great expectations)
+GPS- Newell and Simon
+Geometry theorem prover - Gelernter (1959)
+Samuel Checkers that learns (1952)
+McCarthy - Lisp (1958),  Advice Taker, Robinson’s resolution
+Microworlds: Integration, block-worlds.
+1962- the perceptron convergence (Rosenblatt)
+ The Birthplace of 
+“Artificial Intelligence”, 1956
+•
+Darmouth workshop, 1956: historical meeting of the precieved founders of AI met: 
+John McCarthy,  Marvin Minsky, Alan Newell,   and Herbert Simon.
+•
+A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence. 
+J. McCarthy, M. L. Minsky, N. Rochester, and C.E. Shannon. August 31, 1955. "We 
+propose that a 2 month, 10 man study of artificial intelligence be carried out during 
+the summer of 1956 at Dartmouth College in Hanover, New Hampshire. The study 
+is to proceed on the basis of the conjecture that every aspect of learning or any 
+other feature of intelligence can in principle be so precisely described that a 
+machine can be made to simulate it." And this marks the debut of the term "artificial 
+intelligence.“
+•
+50 anniversery of Darmouth workshop
+•
+List of AI-topics
+271-fall 2017
+ More AI examples
+Common sense reasoning (1980-1990)
+•
+Tweety
+•
+Yale Shooting problem
+Update vs revise knowledge
+The OR gate example: A or B C
+•
+Observe  C=0, vs Do C=0
+Chaining theories of actions
+Looks-like(P) is(P)
+Make-looks-like(P) Looks-like(P)
+----------------------------------------
+Makes-looks-like(P) is(P) ???
+Garage-door example: garage door not included.
+•
+Planning benchmarks
+•
+8-puzzle, 8-queen, block world, grid-space world
+•
+Cambridge parking example
+Smoked fish example… what is this?
+271-fall 2017
+ History, continued
+•
+1966-1974 a dose of reality
+–
+Problems with computation
+•
+1969-1979 Knowledge-based systems
+–
+Weak vs. strong methods
+–
+Expert systems:
+•
+Dendral : Inferring molecular structures (Buchanan et. Al. 1969)
+•
+Mycin : diagnosing blood infections (Shortliffe et. Al, certainty factors)
+•
+–
+Weak vs. strong methods
+–
+Expert systems:
+•
+Dendral : Inferring molecular structures (Buchanan et. Al. 1969)
+•
+Mycin : diagnosing blood infections (Shortliffe et. Al, certainty factors)
+•
+Prospector : recommending exploratory drilling (Duda).
+–
+Roger Shank: no syntax only semantics
+•
+1980-1988: AI becomes an industry
+–
+R1: Mcdermott, 1982, order configurations of computer systems
+–
+1981: Fifth generation
+•
+1986-present: return to neural networks
+•
+1987-present :
+–
+AI becomes a science: HMMs, planning,  belief network
+•
+1995-present: The emergence of intelligent agents
+–
+Ai agents  (SOAR, Newell, Laired, 1987) on the internet, technology in web-based applications , 
+recommender systems. Some researchers (Nilsson, McCarthy, Minsky, Winston) express discontent with 
+the progress of the field. AI should return to human-level AI (they say).
+•
+2001-present: The availability of data;
+–
+The knowledge bottleneck may be solved for many applications: learn the information rather than hand 
+code it .
+271-fall 2017
+ State of the art
+•
+Game Playing: Deep Blue defeated the reigning world chess champion 
+Garry Kasparov in 1997; AlphaGo 2017 beats GO world champion.
+•
+Robotics vehicles: 
+– 2005 Standford robot won DARPA Grand Challenge, driving autonomously 131 miles 
+along unrehearsed desert trail
+– Staneley (Thrun 2006). No hands across America (driving autonomously 98% of the time 
+from Pittsburgh to San Diego)
+– 2007 CMU team won DARPA Urban Challenge driving autonomously 55 miles in a city 
+while adhering to traffic laws and hazards
+– Self-driving cars (Google, Uber, Tesla, etc.)
+•
+Autonomous planning and scheduling: 
+– During the 1991 Gulf War, US forces deployed an AI logistics planning and scheduling 
+program that involved up to 50,000 vehicles, cargo, and people 
+– NASA's on-board autonomous planning program controlled the scheduling of operations 
+for a spacecraft 
+•
+Speech recognition (e.g. Siri, …)
+•
+DARPA grand challenge 2003-2005, Robocup
+•
+Machine translation (From English to Arabic, 2007)
+•
+Natural language processing: Watson won Jeopardy (Natural language 
+processing), IBM 2011.
+271-fall 2017
+ Current “Hot” areas/applications
+• Big Data
+• with Machine Learning
+• Deep Learning
+• Transportation/robotics
+• Vision
+• Internet/social media
+271-fall 2017
+ Robotic links
+•
+Deep Blue: http://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)
+• Robocup Video
+–
+Soccer Robocupf
+• Darpa Challenge
+–
+Darpa’s-challenge-video
+•
+Watson 
+•
+http://www.youtube.com/watch?v=seNkjYyG3gI
+271-fall 2017
+ Today’s class
+• What is Artificial Intelligence? 
+• A brief History
+• State of the art
+• Intelligent agents
+271-fall 2017
+ Agents
+• An agent is anything that can be viewed as perceiving its 
+environment through sensors and acting upon that 
+environment through actuators
+• Human agent: eyes, ears, and other organs for sensors; 
+hands, legs, mouth, and other body parts for actuators
+• Robotic agent: cameras and infrared range finders for 
+sensors; various motors for actuators
+271-fall 2017
+ Agents
+• Agents and environments
+• Rationality
+• PEAS (Performance measure, Environment, 
+Actuators, Sensors)
+• Environment types
+• Agent types
+271-fall 2017
+ Agents and environments
+• The agent function maps from percept histories to actions:
+[f: P* A]
+• The agent program runs on the physical architecture to 
+produce f
+• agent = architecture + program
+271-fall 2017
+ What’s involved in Intelligence?
+•
+Ability to interact with the real world
+– to perceive, understand, and act
+– e.g., speech recognition and understanding and synthesis
+– e.g., image understanding
+– e.g., ability to take actions, have an effect
+•
+Knowledge Representation, Reasoning and Planning
+– modeling the external world, given input
+– solving new problems, planning and making decisions
+– ability to deal with unexpected problems, uncertainties
+•
+Learning and Adaptation
+– we are continuously learning and adapting
+– our internal models are always being “updated”
+– ability to deal with unexpected problems, uncertainties
+•
+Learning and Adaptation
+– we are continuously learning and adapting
+– our internal models are always being “updated”
+• e.g. a baby learning to categorize and recognize animals
+271-fall 2017
+ Implementing agents
+•
+Table look-ups, Model-based, Goal-oriented, Utility, Learning
+•
+Autonomy
+– All actions are completely specified
+– no need in sensing, no autonomy
+– example: Monkey and the banana
+•
+Structure of an agent
+– agent = architecture + program
+– Agent examples
+• medical diagnosis
+• Satellite image analysis system
+• part-picking robot
+• Interactive English tutor
+• cooking agent
+• taxi driver
+271-fall 2017
+ 271-fall 2017
+ 271-fall 2017
+ 271-fall 2017
+ Task Environment
+271-fall 2017
+• Before we design a rational agent, we must specify 
+its task environment:
+PEAS:
+Performance measure
+Environment
+Actuators
+Sensors
+ PEAS
+271-fall 2017
+• Example: Agent =  taxi driver
+– Performance measure: Safe, fast, legal, comfortable 
+trip, maximize profits
+– Environment: Roads, other traffic, pedestrians, 
+customers
+– Actuators: Steering wheel, accelerator, brake, signal, 
+horn
+– Sensors: Cameras, sonar, speedometer, GPS, odometer, 
+engine sensors, keyboard
+ PEAS
+271-fall 2017
+• Example: Agent = Medical diagnosis system
+– Performance measure: Healthy patient, minimize costs, 
+lawsuits
+– Environment: Patient, hospital, staff
+– Actuators: Screen display (questions, tests, diagnoses, 
+treatments, referrals)
+– Sensors: Keyboard (entry of symptoms, findings, 
+patient's answers)
+ PEAS
+271-fall 2017
+• Example: Agent = part-picking robot
+– Performance measure: Percentage of parts in correct 
+bins
+– Environment: Conveyor belt with parts, bins
+– Actuators: Jointed arm and hand
+– Sensors: Camera, joint angle sensors
+ 271-fall 2017
+Environment Types
+• Fully observable (vs. partially observable): An agent's 
+sensors give it access to the complete state of the 
+environment at each point in time.
+• Deterministic (vs. stochastic): The next state of the 
+environment is completely determined by the current state 
+and the action executed by the agent. (If the environment 
+is deterministic except for the actions of other agents, then 
+the environment is strategic)
+• Episodic (vs. sequential): An agent’s action is divided into 
+atomic episodes. Decisions do not depend on previous 
+decisions/actions.
+ Environment Types
+271-fall 2017
+• Static (vs. dynamic): The environment is unchanged while 
+an agent is deliberating. (The environment is semidynamic
+if the environment itself does not change with the passage 
+of time but the agent's performance score does)
+• Discrete (vs. continuous): A limited number of distinct, 
+clearly defined percepts and actions.
+How do we represent or abstract or model the world?
+• Single agent (vs. multi-agent): An agent operating by itself 
+in an environment. Does the other agent interfere with my 
+performance measure?
+ 271-fall 2017
+ 271-fall 2017
+ 271-fall 2017
+ 271-fall 2017
+ 271-fall 2017
+ 271-fall 2017
+ 271-fall 2017
+ Table Driven Agent.Impractical
+current state of decision process
+table lookup
+for entire history
+ Simple reflex agentsFast but too simple
+example: vacuum cleaner world
+NO MEMORY
+Fails if environment
+is partially observable
+ Model-based reflex agents
+Model the state of the world by:
+modeling how the world changes
+how it’s actions change the world 
+description of
+current world state
+•This can work even with partial information
+•It’s is unclear what to do
+without a clear goal
+ Goal-based agents
+Goals provide reason to prefer one action over the other.
+We need to predict the future: we need to plan & search
+ Utility-based agents
+Some solutions to goal states are better than others.
+Which one is best is given by a utility function.
+Which combination of goals is preferred?
+ Learning agents
+How does an agent improve over time?
+By monitoring it’s performance and suggesting 
+better modeling, new action rules, etc.
+Evaluates
+current 
+world 
+state
+changes
+action 
+rules
+Learning agents
+How does an agent improve over time?
+By monitoring it’s performance and suggesting 
+better modeling, new action rules, etc.
+Evaluates
+current 
+world 
+state
+changes
+action 
+rules
+suggests
+explorations
+“old agent”=
+model world
+and decide on 
+actions 
+to be taken
+ Summary 
+•
+What is Artificial Intelligence? 
+– modeling humans thinking, acting, should think, should act.
+•
+History of AI
+•
+Intelligent agents
+– We want to build agents  that act rationally
+•
+Real-World Applications of AI
+– AI is alive and well in various “every day” applications
+• many products, systems, have AI components
+•
+Assigned Reading
+– Chapters 1  and 2 in the text R&N
+271-fall 2017
