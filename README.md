@@ -1,5 +1,5 @@
 # AI Chatbot using LangChain with Predefined PDFs
-Introduction
+## Introduction
 
 Welcome to our AI Chatbot project! This chatbot is built using LangChain, a framework for developing language-based applications. Our goal is to create a chatbot that can converse with users based on information extracted from predefined PDF documents. This project explores innovative methods to process and interpret the content within these documents, enabling the chatbot to provide informed and accurate responses to user queries.
 Features
@@ -38,7 +38,7 @@ streamlit run app.py
 Navigate to localhost:8501 in your web browser to interact with the chatbot. You can upload PDFs, extract text, and ask questions based on the extracted content.
 Contributing
 
-Contributions to this project are welcome! Here’s how you can contribute:
+### Contributions to this project are welcome! Here’s how you can contribute:
 
     Reporting Bugs: Open an issue describing the bug.
     Suggesting Enhancements: Open an issue with your suggestions.
@@ -48,13 +48,13 @@ Please read CONTRIBUTING.md for details on our code of conduct and the process f
 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-Acknowledgements
+## Acknowledgements
 
     LangChain: For providing the framework used in this project.
     Hugging Face's Transformers: For NLP models and tools.
     PyMuPDF: For handling PDF operations.
 
-Authors
+## Authors
 
     Amanda Ofori
     Yineteili Abii
