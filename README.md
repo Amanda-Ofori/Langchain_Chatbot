@@ -1,4 +1,4 @@
-AI Chatbot using LangChain with Predefined PDFs
+# AI Chatbot using LangChain with Predefined PDFs
 Introduction
 
 Welcome to our AI Chatbot project! This chatbot is built using LangChain, a framework for developing language-based applications. Our goal is to create a chatbot that can converse with users based on information extracted from predefined PDF documents. This project explores innovative methods to process and interpret the content within these documents, enabling the chatbot to provide informed and accurate responses to user queries.
@@ -9,7 +9,7 @@ Features
     Web Interface: Features a Streamlit web interface for easy interaction with the chatbot.
     Advanced Query Handling: Incorporates techniques to manage large texts and token limitations of language models.
 
-Installation
+## Installation
 
 Before you can run the chatbot, you need to set up your environment:
 
@@ -27,7 +27,7 @@ bash
 
     pip install -r requirements.txt
 
-Usage
+## Usage
 
 To start the chatbot, run the Streamlit application:
 
